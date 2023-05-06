@@ -1,0 +1,29 @@
+There are five types of join - 
+1. Inner Join or join ( only the matching records along with duplicates)
+
+2. Outer Joins( Left and Right Join = inner join  
+                + fetch any additional record that is only present in one table)
+
+3. Full Joins( Inner + Left + Right Joins)              
+
+4. Cross Joins ( Each value will match with every other value)
+
+5. Natural Joins ( it can be treated as inner join if the same column name exists 
+                  otherwise it is a cross join)
+
+Note : null is never matched since null is not the same, representing some junk, 
+       anyways it is displayed as null
+
+DDL : CREATE, DROP, ALTER and TRUNCATE 
+DML : INSERT, UPDATE, DELETE and MERGE
+DCL : GRANT, REVOKE
+TCL : COMMIT, ROLLBACK and SAVEPOINT
+
+Truncate is DDL, deletes all rows, no commit required
+Delete is DML, deletes some/all rows, commit required
+
+Query Execution Order 
+Select , From , Where, Group by, Having, Order by, Limit
+
+=> 
+From, Where, Group By, Having, Select( window functions ), Order by, Limit 
